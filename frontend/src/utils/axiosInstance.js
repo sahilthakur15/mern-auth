@@ -3,7 +3,7 @@ import { jwtDecode } from "jwt-decode";
 
 // Create an axios instance
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:8001/api",
+  baseURL: "https://backend-six-flame-55.vercel.app/api",
   headers: { "Content-Type": "application/json" },
 });
 
