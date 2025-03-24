@@ -19,7 +19,6 @@ const dbconnect = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             serverSelectionTimeoutMS: 5000, // Timeout if MongoDB is unresponsive
-            keepAlive: true, // Keep the connection alive
         });
     }
 
